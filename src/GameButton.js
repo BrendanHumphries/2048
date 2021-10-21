@@ -1,6 +1,6 @@
 function GameButton({tile, tile:{id, number}}) {
     return (
-        <p class='game-button'>{id}</p>
+        <p className='game-button'>{number}</p>
     )
 }
 
